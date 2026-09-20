@@ -1,0 +1,15 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal landing page for Herchel Davisjr with a printable identity certificate",
+  "scripts": {
+    "build": "webpack",
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
