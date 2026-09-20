@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Herchel Davisjr</title>
+    <meta
+      name="description"
+      content="Personal landing page for Herchel Davisjr (HDJR)."
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #10110e;
+        --ink: #ece7d8;
+        --muted: #a39a86;
+        --line: #2c2a24;
+        --accent: #d9a441;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2.5rem 1.5rem;
+        background:
+          radial-gradient(1200px 600px at 12% -10%, #1c1d16 0%, transparent 55%),
+          var(--bg);
+        color: var(--ink);
+        font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+        letter-spacing: 0.01em;
+      }
+
+      main {
+        width: min(40rem, 100%);
+        border-top: 1px solid var(--line);
+        padding-top: 2rem;
+      }
+
+      .mark {
+        margin: 0 0 1.25rem;
+        color: var(--accent);
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(2.4rem, 8vw, 4.25rem);
+        font-weight: 400;
+        line-height: 0.95;
+      }
+
+      p {
+        max-width: 28rem;
+        margin: 1.25rem 0 0;
+        color: var(--muted);
+        font-size: 1.05rem;
+        line-height: 1.55;
+      }
+
+      a {
+        color: var(--ink);
+        text-decoration: none;
+        border-bottom: 1px solid var(--accent);
+      }
+
+      a:hover,
+      a:focus-visible {
+        color: var(--accent);
+      }
+
+      footer {
+        margin-top: 2.5rem;
+        color: var(--muted);
+        font-size: 0.8rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="mark">HDJR</p>
+      <h1>Herchel Davisjr</h1>
+      <p>Gather. Craft. Build. Explore. Fight. Survive.</p>
+      <p>
+        <a href="https://github.com/jdmfwryn2w-ux">GitHub profile</a>
+      </p>
+      <footer>© <span id="year">2026</span></footer>
+    </main>
+  </body>
+</html>
